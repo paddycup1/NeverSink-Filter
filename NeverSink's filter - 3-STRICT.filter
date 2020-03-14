@@ -324,6 +324,7 @@ Show
   MinimapIcon 0 Red Square
   PlayEffect Red
 	CustomAlertSound "Sounds/T16.mp3"
+	DisableDropSound 
 
 Show
   Class Maps
@@ -336,6 +337,7 @@ Show
   MinimapIcon 0 Red Square
   PlayEffect Red
 	CustomAlertSound "Sounds/T15.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -348,6 +350,7 @@ Show
   MinimapIcon 2 Red Square
   PlayEffect Red
 	CustomAlertSound "Sounds/T14.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -360,6 +363,7 @@ Show
   MinimapIcon 2 Red Square
   PlayEffect Red
 	CustomAlertSound "Sounds/T13.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -372,6 +376,7 @@ Show
   MinimapIcon 2 Red Square
   PlayEffect Red
 	CustomAlertSound "Sounds/T12.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -384,6 +389,7 @@ Show
   MinimapIcon 2 Red Square
   PlayEffect Red
 	CustomAlertSound "Sounds/T11.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -396,6 +402,7 @@ Show
   MinimapIcon 2 Yellow Square
   PlayEffect Yellow
 	CustomAlertSound "Sounds/T10.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -408,6 +415,7 @@ Show
   MinimapIcon 2 Yellow Square
   PlayEffect Yellow
 	CustomAlertSound "Sounds/T9.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -420,6 +428,7 @@ Show
   MinimapIcon 2 Yellow Square
   PlayEffect Yellow
 	CustomAlertSound "Sounds/T8.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -432,6 +441,7 @@ Show
   MinimapIcon 2 Yellow Square
   PlayEffect Yellow
 	CustomAlertSound "Sounds/T7.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -444,6 +454,7 @@ Show
   MinimapIcon 2 Yellow Square
   PlayEffect Yellow
 	CustomAlertSound "Sounds/T6.mp3"
+	DisableDropSound
 
 Show
   Class Maps
@@ -454,6 +465,7 @@ Show
   SetBackgroundColor 0 0 0 180
   SetFontSize 36
   CustomAlertSound "Sounds/T5.mp3"
+	DisableDropSound
   MinimapIcon 2 White Square
   PlayEffect White
 
@@ -466,6 +478,7 @@ Show
   SetBackgroundColor 0 0 0 180
   SetFontSize 36
   CustomAlertSound "Sounds/T4.mp3"
+	DisableDropSound
   MinimapIcon 2 White Square
   PlayEffect White
 
@@ -478,6 +491,7 @@ Show
   SetBackgroundColor 0 0 0 180
   SetFontSize 36
   CustomAlertSound "Sounds/T3.mp3"
+	DisableDropSound
   MinimapIcon 2 White Square
   PlayEffect White
 
@@ -490,6 +504,7 @@ Show
   SetBackgroundColor 0 0 0 180
   SetFontSize 36
   CustomAlertSound "Sounds/T2.mp3"
+	DisableDropSound
   MinimapIcon 2 White Square
   PlayEffect White
 
@@ -502,6 +517,7 @@ Show
   SetBackgroundColor 0 0 0 180
   SetFontSize 36
   CustomAlertSound "Sounds/T1.mp3"
+	DisableDropSound
   MinimapIcon 2 White Square
   PlayEffect White
 
