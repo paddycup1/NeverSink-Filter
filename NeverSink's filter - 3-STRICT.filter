@@ -316,47 +316,192 @@ Show
 Show
   Class Maps
   Rarity < Unique
-  MapTier >= 15
+  MapTier = 16
   SetTextColor 75 0 0 255
   SetBorderColor 0 0 0 255
   SetBackgroundColor 255 255 255 255
   SetFontSize 45
-  PlayAlertSound 5 300
   MinimapIcon 0 Red Square
   PlayEffect Red
+	CustomAlertSound "Sounds/T16.mp3"
 
 Show
   Class Maps
   Rarity < Unique
-  MapTier >= 11
+  MapTier = 15
+  SetTextColor 75 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 0 Red Square
+  PlayEffect Red
+	CustomAlertSound "Sounds/T15.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 14
   SetTextColor 0 0 0 255
   SetBorderColor 0 0 0 255
   SetBackgroundColor 255 255 255 255
   SetFontSize 40
-  PlayAlertSound 5 300
   MinimapIcon 2 Red Square
   PlayEffect Red
+	CustomAlertSound "Sounds/T14.mp3"
 
 Show
   Class Maps
   Rarity < Unique
-  MapTier >= 6
+  MapTier = 13
+  SetTextColor 0 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 255 255 255 255
+  SetFontSize 40
+  MinimapIcon 2 Red Square
+  PlayEffect Red
+	CustomAlertSound "Sounds/T13.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 12
+  SetTextColor 0 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 255 255 255 255
+  SetFontSize 40
+  MinimapIcon 2 Red Square
+  PlayEffect Red
+	CustomAlertSound "Sounds/T12.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 11
+  SetTextColor 0 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 255 255 255 255
+  SetFontSize 40
+  MinimapIcon 2 Red Square
+  PlayEffect Red
+	CustomAlertSound "Sounds/T11.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 10
   SetTextColor 192 192 192 255
   SetBorderColor 221 221 221 255
   SetBackgroundColor 0 0 0 255
   SetFontSize 38
-  PlayAlertSound 4 300
   MinimapIcon 2 Yellow Square
   PlayEffect Yellow
+	CustomAlertSound "Sounds/T10.mp3"
 
 Show
   Class Maps
   Rarity < Unique
+  MapTier = 9
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 255
+  SetFontSize 38
+  MinimapIcon 2 Yellow Square
+  PlayEffect Yellow
+	CustomAlertSound "Sounds/T9.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 8
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 255
+  SetFontSize 38
+  MinimapIcon 2 Yellow Square
+  PlayEffect Yellow
+	CustomAlertSound "Sounds/T8.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 7
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 255
+  SetFontSize 38
+  MinimapIcon 2 Yellow Square
+  PlayEffect Yellow
+	CustomAlertSound "Sounds/T7.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier = 6
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 255
+  SetFontSize 38
+  MinimapIcon 2 Yellow Square
+  PlayEffect Yellow
+	CustomAlertSound "Sounds/T6.mp3"
+
+Show
+  Class Maps
+  Rarity < Unique
+	MapTier = 5
   SetTextColor 192 192 192 255
   SetBorderColor 221 221 221 255
   SetBackgroundColor 0 0 0 180
   SetFontSize 36
-  PlayAlertSound 4 300
+  CustomAlertSound "Sounds/T5.mp3"
+  MinimapIcon 2 White Square
+  PlayEffect White
+
+Show
+  Class Maps
+  Rarity < Unique
+	MapTier = 4
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 180
+  SetFontSize 36
+  CustomAlertSound "Sounds/T4.mp3"
+  MinimapIcon 2 White Square
+  PlayEffect White
+
+Show
+  Class Maps
+  Rarity < Unique
+	MapTier = 3
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 180
+  SetFontSize 36
+  CustomAlertSound "Sounds/T3.mp3"
+  MinimapIcon 2 White Square
+  PlayEffect White
+
+Show
+  Class Maps
+  Rarity < Unique
+	MapTier = 2
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 180
+  SetFontSize 36
+  CustomAlertSound "Sounds/T2.mp3"
+  MinimapIcon 2 White Square
+  PlayEffect White
+
+Show
+  Class Maps
+  Rarity < Unique
+	MapTier = 1
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 180
+  SetFontSize 36
+  CustomAlertSound "Sounds/T1.mp3"
   MinimapIcon 2 White Square
   PlayEffect White
 
@@ -4245,6 +4390,27 @@ Show # %D3 %UP $size->small
 # [[3000]] HIDE LAYER 2 - RARE ITEMS (65+ ONLY FOR NON-REGULAR VERSIONS)
 #===============================================================================================================
 #Hide
+# PADDY_OVERRIDE_START: for chaos trading
+#Show
+  Rarity = Rare
+  ItemLevel >= 60
+  Class	"Boots"
+  SetBorderColor 125 0 0
+  SetTextColor 125 0 0
+  SetBackgroundColor 246 196 78
+  SetFontSize 24
+  Identified False
+
+Show
+  Rarity = Rare
+  ItemLevel >= 60
+  Class	"Amulets" "Belts" "Body Armour" "Boots" "Bows" "Gloves" "Helmets" "Jewel" "Rings""Staves" "Two Hand" "Ring"
+  SetBorderColor 0 0 0
+  SetTextColor 0 0 0
+  SetBackgroundColor 246 196 78 200
+  SetFontSize 18
+  Identified False
+# PADDY_OVERRIDE_START:  for chaos trading
 
 Hide # $size->small hide remaining rare endgame items (note: on the regular version this line never happens)
 	Width <= 1
