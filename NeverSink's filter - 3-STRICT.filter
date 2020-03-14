@@ -581,7 +581,7 @@ Show # $Currency->Scroll->Wisdom %RF1 %H2 %TB-Currency-T8
 Show # $Recipes->Glassblower->20% %D3
   Quality = 20
   ItemLevel > 65
-  Rarity <= Magic
+  Rarity = Normal
   BaseType "Flask"
   SetFontSize 40
   SetBorderColor 255 255 255 255       # BORDERCOLOR:   T1 highlight
