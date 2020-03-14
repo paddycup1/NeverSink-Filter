@@ -1,0 +1,241 @@
+Show # %TB-Gavels %D1 $Recipe->Chisel
+  Corrupted False
+  Rarity Normal
+  BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+  SetBorderColor 0 0 0                 # BORDERCOLOR:   Neutral T1.5
+  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
+
+Show
+  BaseType "Glorious Plate" "Leather Belt"
+  Rarity Normal
+  SetBorderColor 255 255 255
+  SetTextColor 255 0 0 255
+  SetFontSize 45
+  PlayAlertSound 12 300
+  PlayEffect White
+
+Show
+  Height <= 2
+  Width <= 2
+  LinkedSockets >= 3
+  SocketGroup RGB
+  SetBorderColor 150 150 150           # BORDERCOLOR:   Neutral T1
+  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
+
+Show
+  Height <= 3
+  Width <= 1
+  LinkedSockets >= 3
+  SocketGroup RGB
+  SetBorderColor 150 150 150           # BORDERCOLOR:   Neutral T1
+  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
+
+Show
+  Class Maps
+  Rarity Unique
+  SetTextColor 131 76 14 255
+  SetBorderColor 131 76 14 255
+  SetBackgroundColor 0 0 0 255
+  SetFontSize 45
+  PlayAlertSound 5 300
+  MinimapIcon 0 Brown Square
+  PlayEffect Brown
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier >= 15
+  SetTextColor 75 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 255 255 255 255
+  SetFontSize 45
+  PlayAlertSound 5 300
+  MinimapIcon 0 Red Square
+  PlayEffect Red
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier >= 11
+  SetTextColor 0 0 0 255
+  SetBorderColor 0 0 0 255
+  SetBackgroundColor 255 255 255 255
+  SetFontSize 40
+  PlayAlertSound 5 300
+  MinimapIcon 2 Red Square
+  PlayEffect Red
+
+Show
+  Class Maps
+  Rarity < Unique
+  MapTier >= 6
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 255
+  SetFontSize 38
+  PlayAlertSound 4 300
+  MinimapIcon 2 Yellow Square
+  PlayEffect Yellow
+
+Show
+  Class Maps
+  Rarity < Unique
+  SetTextColor 192 192 192 255
+  SetBorderColor 221 221 221 255
+  SetBackgroundColor 0 0 0 180
+  SetFontSize 36
+  PlayAlertSound 4 300
+  MinimapIcon 2 White Square
+  PlayEffect White
+
+Show # $Currency->Low->T1 %H5 %TB-Currency-SilverCoin
+  Class Currency
+  BaseType "Silver Coin"
+  SetFontSize 45
+  SetTextColor 45 50 130 255           # TEXTCOLOR:   Silver Coin
+  SetBorderColor 0 0 0                 # BORDERCOLOR:   Neutral T1.5
+  SetBackgroundColor 210 178 135 255   # BACKGROUND:   Currency T5
+
+Show # $Currency->Low->T1 %H4 %TB-Currency-T4
+  Class Currency
+  BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble"
+  SetFontSize 45
+  SetTextColor 0 0 0 255               # TEXTCOLOR:   High Special Base
+  SetBorderColor 0 0 0 200             # BORDERCOLOR:   Neutral T2
+  SetBackgroundColor 210 178 135 255   # BACKGROUND:   Currency T5
+
+Show # $Currency->Low->T2 %H4 %TB-Currency-T5
+  Class Currency
+  BaseType "Blacksmith's Whetstone" "Alchemy Shard"
+  SetFontSize 45
+  SetTextColor 170 158 130             # TEXTCOLOR:   Currency Cosmetic
+  SetBorderColor 190 178 135 180       # BORDERCOLOR:   Transmutation
+  SetBackgroundColor 0 0 0 255         # BACKGROUND:   Neutral T2
+
+Show # $Currency->Scroll->Portal %RF1 %H3 %TB-Currency-T7
+  Class Currency
+  BaseType "Portal Scroll" "Orb of Transmutation" 
+  SetFontSize 36
+  SetTextColor 170 158 130 220         # TEXTCOLOR:   Currency Cosmetic 2
+  SetBorderColor 30 50 100 255         # BORDERCOLOR:   Portal
+  SetBackgroundColor 0 0 0 255         # BACKGROUND:   Neutral T2
+
+Show # $Currency->Low->T3 %H2 %TB-Currency-T6
+  Class Currency
+  BaseType "Armourer's Scrap" "Orb of Augmentation" "Transmutation Shard" "Alteration Shard"
+  SetFontSize 40
+  SetTextColor 170 158 130 220         # TEXTCOLOR:   Currency Cosmetic 2
+  SetBorderColor 75 75 75 255          # BORDERCOLOR:   Currency Augment
+  SetBackgroundColor 0 0 0 255         # BACKGROUND:   Neutral T2
+
+Show # $Currency->Scroll->Wisdoms
+  Class Currency
+  BaseType "Scroll of Wisdom"
+  StackSize > 1
+  SetFontSize 45
+  SetTextColor 170 158 130 220         # TEXTCOLOR:   Currency Cosmetic 2
+  SetBorderColor 100 50 30 255         # BORDERCOLOR:   Wisdom
+  SetBackgroundColor 0 0 0 255         # BACKGROUND:   Neutral T2
+
+Show # $Currency->Scroll->Wisdom %RF1 %H2 %TB-Currency-T8
+  Class Currency
+  BaseType "Scroll of Wisdom"
+  SetFontSize 36
+  SetTextColor 170 158 130 220         # TEXTCOLOR:   Currency Cosmetic 2
+  SetBorderColor 100 50 30 255         # BORDERCOLOR:   Wisdom
+  SetBackgroundColor 0 0 0 255         # BACKGROUND:   Neutral T2
+
+Show # $Recipes->Glassblower->20% %D3
+  Quality = 20
+  ItemLevel > 65
+  Rarity <= Magic
+  BaseType "Flask"
+  SetFontSize 40
+  SetBorderColor 255 255 255 255       # BORDERCOLOR:   T1 highlight
+  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
+
+Show # $Recipes->Glassblower->15% %D1
+  Quality >= 15
+  ItemLevel > 65
+  Rarity <= Magic
+  BaseType "Flask"
+  SetFontSize 36
+  SetBorderColor 150 150 150           # BORDERCOLOR:   Neutral T1
+  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
+
+Show # $Recipes->Glassblower %D1
+  Quality >= 1
+  ItemLevel > 65
+  Rarity <= Magic
+  BaseType "Flask"
+  SetFontSize 36
+  SetBorderColor 0 0 0                 # BORDERCOLOR:   Neutral T1.5
+  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
+
+Show # $Flasks->Life %D1
+  ItemLevel <= 74
+  ItemLevel >= 66
+  Rarity <= Magic
+  Class "Life Flasks"
+  BaseType "Divine" "Eternal"
+  SetFontSize 36
+  SetBorderColor 120 0 0               # BORDERCOLOR:   Aspect Life Flask
+
+Show # $Flasks->Mana %D1
+  ItemLevel <= 74
+  ItemLevel >= 66
+  Rarity <= Magic
+  Class "Mana Flasks"
+  BaseType "Divine" "Eternal"
+  SetFontSize 36
+  SetBorderColor 0 0 120               # BORDERCOLOR:   Aspect: Mana Flask
+
+Show # $Flasks->Utility %D2
+  ItemLevel > 65
+  Rarity <= Magic
+  Class "Utility Flasks"
+  SetFontSize 36
+  SetBorderColor 50 200 125            # BORDERCOLOR:   Flask
+  SetBackgroundColor 25 100 75         # BACKGROUND:   Flasks
+
+
+##########################################################################
+# CHAOS TRADING    
+##########################################################################
+
+Show
+  Rarity = Rare
+  Class	"Amulet" "Ring"
+  SetBorderColor 0 0 0
+  SetTextColor 0 0 0
+  SetBackgroundColor 246 196 78
+  ItemLevel < 75
+  ItemLevel >= 60
+  Identified False
+
+#===============================================================================================================
+# [[1700]] HIDE LAYER 2 - RARE ITEMS (65+ ONLY FOR NON-REGULAR VERSIONS)
+#===============================================================================================================
+#Hide
+
+# PADDY_OVERRIDE_START: for chaos trading
+#Show
+#  Rarity = Rare
+#  ItemLevel >= 60
+#  Class	"Boots"
+#  SetBorderColor 125 0 0
+#  SetTextColor 125 0 0
+#  SetBackgroundColor 246 196 78
+#  SetFontSize 24
+#  Identified False
+#
+#Show
+#  Rarity = Rare
+#  ItemLevel >= 60
+#  Class	"Amulets" "Belts" "Body Armour" "Boots" "Bows" "Gloves" "Helmets" "Jewel" "Rings""Staves" "Two Hand" "Ring"
+#  SetBorderColor 0 0 0
+#  SetTextColor 0 0 0
+#  SetBackgroundColor 246 196 78 200
+#  SetFontSize 18
+#  Identified False
+# PADDY_OVERRIDE_START:  for chaos trading
