@@ -427,24 +427,6 @@ Show # $Recipes->Glassblower->20% %D3
   SetBorderColor 255 255 255 255       # BORDERCOLOR:   T1 highlight
   SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
 
-Show # $Recipes->Glassblower->15% %D1
-  Quality >= 15
-  ItemLevel > 65
-  Rarity <= Magic
-  BaseType "Flask"
-  SetFontSize 36
-  SetBorderColor 150 150 150           # BORDERCOLOR:   Neutral T1
-  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
-
-Show # $Recipes->Glassblower %D1
-  Quality >= 1
-  ItemLevel > 65
-  Rarity <= Magic
-  BaseType "Flask"
-  SetFontSize 36
-  SetBorderColor 0 0 0                 # BORDERCOLOR:   Neutral T1.5
-  SetBackgroundColor 75 75 75 255      # BACKGROUND:   Recipe T2
-
 Show # $Flasks->Life %D1
   ItemLevel <= 74
   ItemLevel >= 66
@@ -478,7 +460,7 @@ Show # $Flasks->Utility %D2
 
 Show
   Rarity = Rare
-  Class	"Amulet" "Ring"
+  Class	"Amulet" "Ring" "Belt"
   SetBorderColor 0 0 0
   SetTextColor 0 0 0
   SetBackgroundColor 246 196 78
