@@ -3,3 +3,10 @@ ADDITIONAL-FILES/SeedFilter/
 Unnamed*
 *.rar
 *.zip
+Countdown/
+DailyDealCache/
+Minimap/
+MOTDCache/
+ShopImages/
+production_Config.ini
+production_login.credentials
